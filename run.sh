@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./bin/output < input.txt
+./bin/output < input/input.txt
