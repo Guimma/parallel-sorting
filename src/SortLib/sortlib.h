@@ -9,5 +9,7 @@
 int* fillArray(int *array, int size);
 void printArray(int *array, int size);
 int getLargest(int *array, int size);
+void copyArr(int* arr, int n, int* newArr);
+bool isSorted(int* arr, int n);
 
 #endif
