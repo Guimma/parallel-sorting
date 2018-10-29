@@ -17,10 +17,10 @@ void printArray(int *array, int size){
 }
 
 int getLargest(int *array, int size){
-    int maior;
-    maior = array[0];
+    int largest;
+    largest = array[0];
     for(int i=1;i<size;i++)
-        if(array[i]>maior)
-            maior=array[i];
-    return maior;
+        if(array[i]>largest)
+            largest=array[i];
+    return largest;
 }
